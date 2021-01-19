@@ -1,7 +1,5 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-const Constants = require("discord.js/src/util/Constants.js");
-Constants.DefaultOptions.ws.properties.$browser = `Discord Android`;
 const { join } = require("path");
 const { readdirSync } = require("fs");
 const ayarlar = require("./ayarlar.json");
