@@ -94,4 +94,4 @@ module.exports = {
   client: client
 };
 
-client.login(process.env.BOT_TOKEN);
+client.login(process.env.TOKEN);
