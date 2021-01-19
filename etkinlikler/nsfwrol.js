@@ -18,7 +18,7 @@ client.on("message", message => {
   } else if (message.content === "evet" && message.channel.type === "dm") {
     message.reply("Artık NSFW kanallarını görüntüleyebilirsin!");
     if (isMember) {
-      isMember.roles.add("795450811437547561");
+      isMember.roles.add("800909435631435786");
     }
   }
   if (!message.channel.type === "dm") {
