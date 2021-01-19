@@ -8,7 +8,7 @@ setInterval(() => {
   const calismasure = moment
     .duration(client.uptime)
     .format(" D [gün], H [saat], m [dakika], s [saniye]");
-  let botdurum = client.channels.cache.find(c => c.id === "797636162184544275"); //Botun sürekli mesaj atacağı kanal.
+  let botdurum = client.channels.cache.find(c => c.id === "800956360602026035"); //Botun sürekli mesaj atacağı kanal.
   const botistatistik = new Discord.MessageEmbed()
     .setColor("RED")
     .setTitle("= Bot İstatistikleri =")
