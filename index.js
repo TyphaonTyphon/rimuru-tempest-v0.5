@@ -96,4 +96,4 @@ module.exports = {
   client: client
 };
 
-client.login(ayarlar.token);
+client.login(process.env.TOKEN);
